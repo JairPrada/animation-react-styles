@@ -1,6 +1,4 @@
-import React from 'react'
-import styles from './styles.module.css'
-
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+import Slide from './Slide'
+import Fade from './Fade'
+import './index.css'
+export { Slide, Fade }

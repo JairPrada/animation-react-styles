@@ -17,10 +17,25 @@ import React, { Component } from 'react'
 
 import MyComponent from 'animation-react-styles'
 import 'animation-react-styles/dist/index.css'
+import { Slide } from 'animation-react-styles'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Slide direction='InLeft' duration={number} />
+  }
+}
+```
+
+```jsx
+import React, { Component } from 'react'
+
+import MyComponent from 'animation-react-styles'
+import 'animation-react-styles/dist/index.css'
+import { Fade } from 'animation-react-styles'
+
+class Example extends Component {
+  render() {
+    return <Fade direction='OutLeft' duration={number} />
   }
 }
 ```
